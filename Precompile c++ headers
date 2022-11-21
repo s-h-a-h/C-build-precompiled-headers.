@@ -1,3 +1,3 @@
 Step 1. Command prompt [Run as administrator]
-Step 2. cd C:\MinGW\lib\gcc\mingw32\9.2.0\include\c++\mingw32\bits
+Step 2. cd C:\MinGW\lib\gcc\mingw32\9.2.0\include\c++\mingw32\bits {...\mingw32\check_your_version\include...}
 Step 3. g++ -std=c++17 stdc++.h
