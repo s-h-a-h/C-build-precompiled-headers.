@@ -1,0 +1,10 @@
+Why we are doing it?
+The compilation time can speed up by precompiling all the header files i.e., by precompiling the bits/stdc++.h header file. 
+Perform the following steps for doing so:
+
+Step 1. Navigate to the stdc++.h file. By default, this file is located at: “C:\MinGW\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits”
+
+Step 2. Open the Power shell or the command window on the current folder. For this right-click while pressing the Shift key.
+
+Step 3. Run the below command to compile the header. {make sure to use the same version used in build '-std=c++17'}
+g++ stdc++.h -std=c++17 
