@@ -1,0 +1,31 @@
+---------------------------
+Creating a c++ build system
+---------------------------
+Step 1 Open Sublime Text editor and then go to Tools > Build System > New Build System.
+
+Step 2. Paste the following code in the file
+{
+    "cmd": ["g++.exe", "-std=c++17", "${file}",
+            "-o", "${file_base_name}.exe",
+            "&&", "${file_base_name}.exe<inputf.in>outputf.out"],
+    "shell":true,
+    "working_dir":"$file_path",
+    "selector":"source.cpp"
+}
+
+Step3. Save it and name the file as "CP.sublime-build" {.sublime-build is must}
+The above block of code is used for taking input from the file “inputf.in” and prints the output to “outputf.out”.
+
+----------------------------
+Setting up the Window Layout
+----------------------------
+Step 1. Create three new files as shown below and make sure all of them are in the same folder.
+- file.cpp: The file for writing the code.
+- inputf.in: The file where we will be giving the input.
+- outputf.out: The file where the output will be displayed.
+
+Step 2. For layout follow the below steps
+Select View > Layout > Columns : 3. This will create three columns in the workspace. Move the three files into three columns.
+Select View > Groups > Max Columns : 2.
+
+Step 3. Select the build system we just created from Tools > Build System > CP.
