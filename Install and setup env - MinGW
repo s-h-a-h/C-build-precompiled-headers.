@@ -1,0 +1,15 @@
+--------------------
+Download and Install
+--------------------
+Step 1. Download MinGW compiler https://osdn.net/projects/mingw/downloads/68260/mingw-get-setup.exe/ 
+Step 2. Mark package - mingw32-gcc-g++-bin (The GNU C++ Compiler), click on 'Installation' and 'Apply Changes'
+
+----------------------
+Set up the Environment 
+----------------------
+After completing the above steps, GCC is up and running. Now, the Environment Variable’s Path is to be updated. Follow the below steps for the same:  
+Step 1. Search for Environment Variables.
+Step 2. Now under the System Variables Tab, look for Path > Click on Path > Click on Edit > Click on New.
+Step 3. Now locate the bin folder inside the MinGW installation folder in the C drive.
+Step 4. Copy the path of the bin folder. By default, the path is: C:\MinGW\bin
+Step 5. Paste this new path in the list and click OK.
