@@ -1,4 +1,0 @@
-Step 1. Navigate to the stdc++.h file. By default, this file is located at: “C:\MinGW\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits”
-Step 2. Open the Power shell or the command window on the current folder. For this right-click while pressing the Shift key.
-Step 3. Run the below command to compile the header. {make sure to sure same version used in cpp build '-std=c++17'}
-g++ -std=c++17 stdc++.h 
